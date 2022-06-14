@@ -9,8 +9,8 @@ import javax.swing.JPanel;
 
 public class MainFrame extends JFrame {
     JPanel mainPanel;
-    TrackPanel trackPanel;
-    ResultPanel resultPanel;
+    public TrackPanel trackPanel;
+    public ResultPanel resultPanel;
     public ButtonPanel buttonPanel;
 
     public MainFrame() {

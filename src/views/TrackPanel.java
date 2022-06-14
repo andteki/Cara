@@ -7,9 +7,9 @@ import javax.swing.JPanel;
 import javax.swing.border.Border;
 
 public class TrackPanel extends JPanel {
-    Car car1;
-    Car car2;
-    Car car3;
+    public Car car1;
+    public Car car2;
+    public Car car3;
     public TrackPanel() {
         this.car1 = new Car(Color.BLUE, 5, "test1");
         this.car1.setBounds(5, 10, 100, 30);

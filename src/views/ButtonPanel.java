@@ -7,11 +7,11 @@ import javax.swing.JPanel;
 
 public class ButtonPanel extends JPanel{
     public JButton startButton;
-    JButton stopButton;
-    JButton resetButton;
-    JButton speedButton;
-    JButton aboutButton;
-    JButton exitButton;
+    public JButton stopButton;
+    public JButton resetButton;
+    public JButton speedButton;
+    public JButton aboutButton;
+    public JButton exitButton;
     public ButtonPanel() {
         startButton = new JButton("Start");
         stopButton = new JButton("Stop");

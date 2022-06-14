@@ -14,6 +14,7 @@ public class ResultPanel extends JPanel {
         this.resultLabel = new JLabel("Első");
         this.resultField = new JTextField();
 
+        this.setBounds(5, 160, 750, 50);
         this.setLayout(new FlowLayout());
         this.add(this.resultLabel);
         this.add(this.resultField);        

@@ -9,6 +9,10 @@ public class MainController {
     public MainController() {
         this.mainFrame = new MainFrame();
         this.mainModel = new MainModel();
+        this.setEvents();
+    }
+    private void setEvents() {
+        // this.mainFrame.
     }
     
 }
